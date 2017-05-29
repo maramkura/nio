@@ -11,6 +11,7 @@
 
     <title>Admin</title>
 
+    <script src="{{asset('js/libs.js')}}"></script>
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
     <link href="{{asset('css/libs.css')}}" rel="stylesheet">
@@ -230,8 +231,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Dashboard</h1>
-                    @yield('content')
+
                 </div>
+                @yield('content')
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
@@ -244,7 +246,7 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="{{asset('js/libs.js')}}"></script>
+
 
 </body>
 
